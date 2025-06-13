@@ -32,7 +32,7 @@ const Contact = () => {
       );
 
       // Reset form and stop loading
-      setForm({ name: "", email: "", message: "" });
+      setForm({ user_name: "", user_email: "", message: "" });
     } catch (error) {
       console.error("EmailJS Error:", error); // Optional: show toast
     } finally {
@@ -61,7 +61,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="name"
-                    value={form.name}
+                    value={form.user_name}
                     onChange={handleChange}
                     placeholder="What’s your good name?"
                     required
@@ -74,7 +74,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
-                    value={form.email}
+                    value={form.user_email}
                     onChange={handleChange}
                     placeholder="What’s your email address?"
                     required
