@@ -1,6 +1,6 @@
 # 3D Portfolio
 
-A modern, interactive 3D portfolio website built with React. Showcases projects, skills, and contact information with a visually engaging theme.
+A modern, interactive 3D portfolio website built with React, Three JS. Showcases projects, skills, and contact information with a visually engaging theme.
 
 ## Features
 
