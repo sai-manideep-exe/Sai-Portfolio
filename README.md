@@ -21,7 +21,7 @@ A modern, interactive 3D portfolio website built with React, Three JS. Showcases
 
 ---
 
-## Live 
+## Live Link
 https://sai-portfolio-omega.vercel.app/
 
 ## Getting Started
